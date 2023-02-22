@@ -4,7 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "dev": "parcel index.html",
+    "build": "parcel build index.html"
   },
   "repository": {
     "type": "git",
@@ -16,5 +17,8 @@
   "bugs": {
     "url": "https://github.com/Donyk-s/it-gust-first-step/issues"
   },
-  "homepage": "https://github.com/Donyk-s/it-gust-first-step#readme"
+  "homepage": "https://github.com/Donyk-s/it-gust-first-step#readme",
+  "devDependencies": {
+    "parcel-bundler": "^1.12.5"
+  }
 }
